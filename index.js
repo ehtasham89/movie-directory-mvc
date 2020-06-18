@@ -16,4 +16,4 @@ const port = process.env.PORT || 4000; //http port, can be changed from .env fil
 
 initApp(app, port); //bootstrap application
 
-app.listen(port)
+app.listen(port);
